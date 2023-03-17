@@ -1,0 +1,136 @@
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.master_container {
+  background-color: rgb(14, 217, 14);
+  height: 94vh;
+  width: 100vh;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20%;
+  border-radius: 20px;
+}
+
+.todo {
+background-color: white;
+font-family: cursive;
+font-size: 40px;
+text-align: center;
+margin: 20px 10vh;
+word-spacing: 10px;
+letter-spacing: 2px;
+color: rgb(12, 243, 12);
+border-radius: 10px;
+width: 80vh;
+font-weight: 1200;
+
+}
+
+.container {
+  background-color: white;
+  width: 80vh;
+  height: 70vh;
+  margin: 0px 10vh;
+  border-radius: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#item {
+  border: 4px solid rgb(13, 242, 13);
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  height: 50px;
+  width: 60vh;
+  margin: 20px 1.5vh;
+  border-radius: 10px;
+  
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1vh 10px;
+  font-size: 1.2rem;
+  padding: 5px;
+  background-color: rgb(219, 245, 87);
+  height: 35px;
+  width: 77vh;
+  border-radius: 8px;
+}
+
+#add-btn {
+  border: 4px solid rgb(13, 242, 13);
+  height: 45px;
+  width: 13vh;
+  border-radius: 10px;
+  background-color: rgb(14, 217, 14);
+  color: white;
+  padding: 0,5vh;
+  margin-left: 1.5vh;
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#add-btn:hover {
+  background-color: yellow;
+  color: red;
+}
+
+#list{
+ list-style: none;
+}
+
+.edit-button {
+  border: 4px solid rgb(13, 242, 13);
+  height: 30px;
+  width: 7vh;
+  border-radius: 6px;
+  background-color: rgb(14, 217, 14);
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1rem; 
+  position: fixed;
+  left: 114vh;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-button:hover {
+  background-color: yellow;
+  color: red;
+}
+
+.delete-button {
+  border: 4px solid rgb(13, 242, 13);
+  height: 30px;
+  width: 9vh;
+  border-radius: 6px;
+  background-color: rgb(14, 217, 14);
+  color: white;
+  font-weight: 700;
+  font-size: 1rem; 
+  position: fixed;
+  left: 122vh;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-button:hover {
+  background-color: yellow;
+  color: red;
+}
