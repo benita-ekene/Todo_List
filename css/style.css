@@ -33,7 +33,7 @@ font-weight: 1200;
 .container {
   background-color: white;
   width: 80vh;
-  height: 70vh;
+  height: 72vh;
   margin: 3vh 3vh 3vh 3vh;
   border-radius: 10px;
 }
@@ -62,11 +62,13 @@ li {
   justify-content: space-between;
   margin: 1vh 10px;
   font-size: 1.2rem;
-  padding: 5px;
+  padding: 6px;
   background-color: rgb(219, 245, 87);
   height: 35px;
-  width: 77vh;
+  width: 78vh;
   border-radius: 8px;
+  overflow: hidden;
+  padding-right: 11vh;
 }
 
 #add-btn {
@@ -101,11 +103,11 @@ li {
   border-radius: 6px;
   background-color: rgb(14, 217, 14);
   color: white;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 1px;
   font-size: 1rem; 
   position: fixed;
-  left: 114vh;
+  left: 113.3vh;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -122,10 +124,10 @@ li {
   border-radius: 6px;
   background-color: rgb(14, 217, 14);
   color: white;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1rem; 
   position: fixed;
-  left: 122vh;
+  left: 121vh;
   cursor: pointer;
   transition: 0.3s;
 }
