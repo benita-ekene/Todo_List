@@ -36,6 +36,8 @@ font-weight: 1200;
   height: 72vh;
   margin: 3vh 3vh 3vh 3vh;
   border-radius: 10px;
+  overflow: scroll;
+
 }
 
 ul {
@@ -126,7 +128,7 @@ li {
   color: white;
   font-weight: 600;
   font-size: 1rem; 
-  position: fixed;
+  position: static;
   left: 116vh;
   cursor: pointer;
   transition: 0.3s;
